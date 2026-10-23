@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131a2a"/>
+      <stop offset="0.55" stop-color="#0c1320"/>
+      <stop offset="1" stop-color="#070b13"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="38%" r="52%">
+      <stop offset="0" stop-color="#f7c66a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f7c66a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a4558"/>
+      <stop offset="0.18" stop-color="#8f9cb4"/>
+      <stop offset="0.36" stop-color="#e3e9f4"/>
+      <stop offset="0.52" stop-color="#9aa6bb"/>
+      <stop offset="0.72" stop-color="#5b6679"/>
+      <stop offset="1" stop-color="#2c3546"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9c39a"/>
+      <stop offset="0.5" stop-color="#8b7551"/>
+      <stop offset="1" stop-color="#4f412c"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#halo)"/>
+  <g stroke="#ffffff" stroke-opacity="0.035">
+    <path d="M0 700 L900 560"/><path d="M0 760 L900 620"/><path d="M0 820 L900 680"/>
+  </g>
+  <ellipse cx="450" cy="742" rx="250" ry="38" fill="#000" opacity="0.55"/>
+  <g filter="url(#shadow)">
+    <rect x="300" y="196" width="300" height="520" rx="64" fill="url(#steel)"/>
+    <rect x="300" y="196" width="300" height="520" rx="64" fill="none" stroke="#e8eefb" stroke-opacity="0.22"/>
+    <rect x="338" y="250" width="26" height="410" rx="13" fill="#ffffff" opacity="0.22"/>
+    <rect x="520" y="270" width="12" height="340" rx="6" fill="#ffffff" opacity="0.1"/>
+    <rect x="288" y="172" width="324" height="82" rx="30" fill="url(#lid)"/>
+    <rect x="288" y="172" width="324" height="82" rx="30" fill="none" stroke="#ffedc8" stroke-opacity="0.28"/>
+    <rect x="352" y="200" width="196" height="14" rx="7" fill="#2a2115" opacity="0.55"/>
+    <rect x="380" y="228" width="140" height="8" rx="4" fill="#ffe6b8" opacity="0.25"/>
+    <g fill="#0b0f17" opacity="0.5">
+      <ellipse cx="352" cy="600" rx="9" ry="5"/>
+      <ellipse cx="540" cy="646" rx="7" ry="4"/>
+      <ellipse cx="372" cy="664" rx="5" ry="3"/>
+    </g>
+    <rect x="332" y="420" width="236" height="2" fill="#ffffff" opacity="0.12"/>
+  </g>
+  <text x="450" y="858" text-anchor="middle" fill="#8b96ad" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" letter-spacing="10">OFFICE RELIC · 01</text>
+</svg>

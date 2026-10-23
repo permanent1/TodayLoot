@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a2b"/>
+      <stop offset="1" stop-color="#070a12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="52%" cy="44%" r="50%">
+      <stop offset="0" stop-color="#54a9ff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#54a9ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2233"/>
+      <stop offset="1" stop-color="#0d121e"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39435a"/>
+      <stop offset="0.5" stop-color="#232c3e"/>
+      <stop offset="1" stop-color="#141a28"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4b5670"/>
+      <stop offset="1" stop-color="#2a3346"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#glow)"/>
+  <rect x="0" y="610" width="900" height="290" fill="url(#desk)"/>
+  <ellipse cx="450" cy="700" rx="330" ry="42" fill="#000" opacity="0.5"/>
+  <g filter="url(#soft)" transform="translate(120 320) rotate(-7 330 180)">
+    <rect x="0" y="0" width="660" height="300" rx="30" fill="url(#body)" stroke="#7f8ca8" stroke-opacity="0.25"/>
+    <rect x="18" y="18" width="624" height="264" rx="18" fill="#0c111c" opacity="0.82"/>
+    <g fill="url(#key)">
+      <rect x="36" y="40" width="62" height="52" rx="9"/><rect x="108" y="40" width="62" height="52" rx="9"/>
+      <rect x="180" y="40" width="62" height="52" rx="9"/><rect x="252" y="40" width="62" height="52" rx="9"/>
+      <rect x="324" y="40" width="62" height="52" rx="9"/><rect x="396" y="40" width="62" height="52" rx="9"/>
+      <rect x="468" y="40" width="62" height="52" rx="9"/><rect x="540" y="40" width="62" height="52" rx="9"/>
+      <rect x="36" y="104" width="62" height="52" rx="9"/><rect x="108" y="104" width="62" height="52" rx="9"/>
+      <rect x="180" y="104" width="62" height="52" rx="9"/><rect x="252" y="104" width="62" height="52" rx="9"/>
+      <rect x="324" y="104" width="62" height="52" rx="9"/><rect x="396" y="104" width="62" height="52" rx="9"/>
+      <rect x="468" y="104" width="62" height="52" rx="9"/><rect x="540" y="104" width="62" height="52" rx="9"/>
+      <rect x="36" y="168" width="100" height="52" rx="9"/><rect x="146" y="168" width="62" height="52" rx="9"/>
+      <rect x="218" y="168" width="62" height="52" rx="9"/><rect x="290" y="168" width="62" height="52" rx="9"/>
+      <rect x="362" y="168" width="62" height="52" rx="9"/><rect x="434" y="168" width="174" height="52" rx="9"/>
+      <rect x="220" y="232" width="220" height="40" rx="8"/>
+    </g>
+    <rect x="434" y="168" width="174" height="52" rx="9" fill="#54a9ff" opacity="0.16"/>
+    <path d="M36 40 L98 40" stroke="#9fb0ca" stroke-opacity="0.25"/>
+  </g>
+  <circle cx="760" cy="180" r="5" fill="#54a9ff" opacity="0.8"/>
+  <circle cx="790" cy="205" r="3" fill="#f7c66a" opacity="0.7"/>
+  <text x="450" y="858" text-anchor="middle" fill="#8b96ad" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" letter-spacing="10">DESK RELIC · 02</text>
+</svg>

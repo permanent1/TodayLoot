@@ -1,0 +1,20 @@
+{
+  "name": "今天出货了吗？· 零号鉴定局",
+  "short_name": "今天出货了吗",
+  "description": "万物皆可鉴定，今天你出货了吗？拍下身边的物品，让 AI 为你写一张藏品卡。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080c16",
+  "theme_color": "#080c16",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121b22"/>
+      <stop offset="1" stop-color="#070b10"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="28%" r="52%">
+      <stop offset="0" stop-color="#f7c66a" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#f7c66a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a2a20"/>
+      <stop offset="0.35" stop-color="#9c7554"/>
+      <stop offset="0.6" stop-color="#c99b70"/>
+      <stop offset="1" stop-color="#4a3527"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fae87"/>
+      <stop offset="1" stop-color="#3c6b55"/>
+    </linearGradient>
+    <linearGradient id="leaf2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cc59b"/>
+      <stop offset="1" stop-color="#4a7a5f"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-30%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#sun)"/>
+  <circle cx="700" cy="160" r="70" fill="#f7c66a" opacity="0.08"/>
+  <circle cx="700" cy="160" r="40" fill="#f7c66a" opacity="0.08"/>
+  <ellipse cx="450" cy="742" rx="230" ry="34" fill="#000" opacity="0.55"/>
+  <g filter="url(#soft)">
+    <path d="M330 590 L570 590 L540 748 Q535 772 510 772 L390 772 Q365 772 360 748 Z" fill="url(#pot)"/>
+    <rect x="318" y="560" width="264" height="46" rx="16" fill="#b98a61"/>
+    <rect x="318" y="560" width="264" height="46" rx="16" fill="none" stroke="#f3d4ad" stroke-opacity="0.25"/>
+    <g transform="translate(450 560)">
+      <path d="M0 0 C-10 -90 -90 -120 -140 -180 C-60 -190 10 -140 0 -60 Z" fill="url(#leaf)"/>
+      <path d="M0 0 C10 -110 70 -150 130 -210 C150 -120 90 -60 0 -30 Z" fill="url(#leaf2)"/>
+      <path d="M0 0 C-20 -60 -110 -70 -160 -60 C-130 -10 -70 10 0 0 Z" fill="url(#leaf2)"/>
+      <path d="M0 0 C20 -50 100 -55 150 -40 C120 5 60 20 0 0 Z" fill="url(#leaf)"/>
+      <path d="M0 0 C-6 -70 10 -130 40 -190 C70 -120 50 -50 0 -10 Z" fill="url(#leaf)"/>
+      <path d="M0 -20 C-4 -90 0 -150 10 -200" stroke="#cfe8c9" stroke-opacity="0.35" stroke-width="5" fill="none"/>
+      <path d="M-8 0 C-60 -60 -100 -90 -140 -140" stroke="#cfe8c9" stroke-opacity="0.25" stroke-width="4" fill="none"/>
+      <path d="M8 -10 C60 -70 90 -110 124 -170" stroke="#cfe8c9" stroke-opacity="0.25" stroke-width="4" fill="none"/>
+      <g fill="#d98a72" opacity="0.75">
+        <circle cx="-132" cy="-176" r="7"/><circle cx="122" cy="-206" r="7"/><circle cx="44" cy="-186" r="6"/>
+      </g>
+    </g>
+    <g fill="#3a2a20" opacity="0.8">
+      <ellipse cx="400" cy="586" rx="6" ry="3"/><ellipse cx="462" cy="600" rx="5" ry="3"/><ellipse cx="516" cy="584" rx="6" ry="3"/>
+    </g>
+  </g>
+  <text x="450" y="858" text-anchor="middle" fill="#8b96ad" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" letter-spacing="10">WINDOW RELIC · 03</text>
+</svg>

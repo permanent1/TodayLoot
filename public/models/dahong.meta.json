@@ -1,0 +1,7 @@
+{
+  "generator": "local-procedural",
+  "tool": "scripts/build-dahong-model.ts",
+  "createdAt": "2026-10-23T15:40:47.137Z",
+  "bytes": 166816,
+  "note": "本地程序化建模，非 Tripo 生成；用于演示 3D 陈列模块"
+}

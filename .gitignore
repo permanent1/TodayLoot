@@ -45,3 +45,8 @@ yarn-error.log*
 
 # junk
 .Trash-*
+
+# playwright
+/test-results
+/playwright-report
+/blob-report
